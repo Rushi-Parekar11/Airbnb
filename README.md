@@ -30,6 +30,24 @@ Follow these steps to set up the project locally:
 
 1. **Clone the repository:**
 
-```bash
 git clone https://github.com/your-username/your-repo.git
 cd your-repo
+
+2. **Install dependencies:**
+
+npm install
+
+
+3. **Run the development server:""
+
+npm run dev
+
+
+4.**Build for production:**
+
+npm run build
+
+
+5.**Preview the production build:**
+
+npm run preview
