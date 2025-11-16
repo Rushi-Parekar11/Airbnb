@@ -9,7 +9,6 @@ const topicTitles = courses.flatMap(course =>
   ])
 );
 
-  console.log(topicTitles);   
   return (
     <>
     <div className="pt-20 bg-gradient-to-b from-[#323233] to-[#000000] flex justify-center items-center py-16 px-4 md:px-0 ">
