@@ -1,9 +1,7 @@
-# 🎓 React Intern Take-Home Assignment
+# 🎓 Airbnb Frontend role Assignment
 
-## 🧭 Project Description
-This project is a small **React-based web application** inspired by popular online learning platforms like **Udemy** and **Coursera**.  
-
-It allows users to explore multiple courses, each containing topics and subtopics rendered in **Markdown or text format**. The app focuses on:
+## Project Description
+This project is a small **React-based web application** .It allows users to explore multiple courses, each containing topics and subtopics rendered in **Markdown or text format**. The app focuses on:
 
 - **Clean, responsive styling** using Tailwind CSS.
 - **ARIA-friendly labels** for improved accessibility.
@@ -21,7 +19,7 @@ The app demonstrates a professional approach to client-only React applications w
 - **Tailwind CSS** for responsive and clean UI
 - **Lucide React** for icons
 - **Google Fonts (Nunito)** for typography
-- **react-markdown** for rendering Markdown content
+- **Vercel** for deployment
 - Client-only app, with **localStorage** for persisting subtopic progress
 
 ---
