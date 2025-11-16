@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import coursesJson from "../data/courses.json";
 import { ChevronRight, ChevronDown } from "lucide-react";
 import HeroPage from "./HeroPage";
+import Footer from "../Components/Footer";
 
 const courses = coursesJson.courses;
 
@@ -67,7 +68,7 @@ export default function Home() {
     <>
 
       {/* BREADCRUMBS */}
-      <nav className="border border-[#222323] h-8 w-full bg-[#0a0a0a] flex items-center px-6 text-[#a1a1a1] text-[12px]">
+      <nav className="border border-[#222323] h-8 w-full bg-[#0a0a0a] flex items-center px-6 text-[#a1a1a1] text-[12px] hidden md:flex">
         <div className="flex items-center">
           <span className="cursor-pointer hover:text-[#fe595e]">Home</span>
 
@@ -106,7 +107,7 @@ export default function Home() {
       </nav>
 
       {/* MAIN LAYOUT */}
-      <div className="bg-[#0a0a0a] h-screen flex flex-col">
+      <div className="bg-[#0a0a0a] h-260 flex flex-col">
         {/* MOBILE HAMBURGER */}
         <button
           className="md:hidden p-3 text-white bg-[#222222] rounded shadow fixed top-2 left-4 z-50"
@@ -218,6 +219,7 @@ export default function Home() {
                 setSearch={setSearch}
                 suggestions={suggestions}
                 handleSelect={handleSelect}
+                courses = {courses}
               />
             )}
           </div>
