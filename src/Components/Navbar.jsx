@@ -14,7 +14,7 @@ function Navbar() {
         flex items-center justify-between px-6 md:px-16">
 
                 {/* LOGO */}
-                <img src={logo} alt="logo" className="h-15"  onClick={() => navigate("/")} />
+                <h2 className="text-2xl font-bold text-[#fe595e]">Course bnb</h2>
 
                 {/* NAV LINKS */}
                 <div className='text-sm text-white flex gap-5'>

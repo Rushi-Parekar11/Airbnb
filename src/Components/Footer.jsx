@@ -6,7 +6,7 @@ export default function Footer() {
       <div className="max-w-7xl mx-auto flex flex-col md:flex-row justify-between gap-6">
         
         <div className="flex flex-col gap-4">
-          <h2 className="text-2xl font-bold text-[#fe595e]">Airbnb</h2>
+          <h2 className="text-2xl font-bold text-[#fe595e]">Course bnb</h2>
           <p className="text-sm max-w-xs">
             Learn from the best online courses, from web development to machine learning.
           </p>
